@@ -28,7 +28,7 @@ var checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
 var formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
 var openBrowser = require('react-dev-utils/openBrowser');
 var prompt = require('react-dev-utils/prompt');
-var config = require('../config/webpack.config.dev');
+var config = require(require('path').resolve(process.cwd(), process.env.WEBPACK_CONFIG_PATH) || '../config/webpack.config.prod');
 var paths = require('../config/paths');
 
 // Warn and crash if required files are missing
