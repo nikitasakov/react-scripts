@@ -1,6 +1,6 @@
 # react-scripts
 
-This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).  
+This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).
 Please refer to its documentation:
 
 * [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
@@ -34,7 +34,7 @@ generalConfig.module.loaders[1].loader = 'style!css?module!postcss';
 module.exports = generalConfig;
   ```
   Take a look at default configs here: [ezhlobo/react-scripts/tree/use-custom-config/config](https://github.com/ezhlobo/react-scripts/tree/use-custom-config/config).
-  
+
 It's an advanced guide. Feel free to ask about it by sending an email to ezhlobo@gmail.com or by creating an issue.
 
 # How to keep relevant version with original repository
