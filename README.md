@@ -1,16 +1,8 @@
 # react-scripts
 
-<<<<<<< Updated upstream
-This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).<br>
-=======
 This package includes scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).
->>>>>>> Stashed changes
-Please refer to its documentation:
 
-* [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
-* [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
-
-# Changes in this fork
+## Changes in this fork
 
 I added the possibility of patching webpack configs. So you can switch on css-modules or add sass-loader if you want.
 
